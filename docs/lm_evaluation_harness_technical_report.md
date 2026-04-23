@@ -261,7 +261,7 @@ flowchart TD
 
 `loggers/evaluation_tracker.py` 统一管理输出：
 
-- 控制台打印 Markdown 表格（任务名 / 指标名 / 分数 / stderr）
+- 控制台打印 Markdown 表格（任务名 / 指标名 / 分数 / 标准误）
 - `--output_path` 写入 JSON 结果文件（含元信息、配置、各任务分数）
 - `--log_samples` 额外写入样本级 JSONL 文件
 - `--wandb_args` 推送至 W&B 实验追踪
